@@ -10,8 +10,8 @@ download the [Flickr2K](https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar), and pu
 
 ```
         python utils/utils_image.py
-```
-Note: the last few lines of code in this file can be used to modify the data path.        
+Note: the last few lines of code in this file can be used to modify the data path.   
+```    
 
 ### 2.2 get grayscale image patches
 
@@ -24,7 +24,7 @@ Note: the last few lines of code in this file can be used to modify the data pat
 ```
 python train.py 
 
-Note: for the training of grayscale and color images, you need to modify the parameters of the gaussian_denoising/options/train_dranet.json file, including n_channels, dataroot_H, in_nc and out_nc.
+Note: for the training of grayscale and color images, you need to modify the parameters of the gaussian_denoising/options/train_tsp_rdanet.json file, including n_channels, dataroot_H, in_nc and out_nc.
 ```
 
 ### 4. Test TSP-RDANet
